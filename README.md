@@ -10,4 +10,4 @@ This is a first attemp to creating a website with the methods of Fundemental HTM
 - CSS Elements And Tags
 - CSS Block Method vs Inline
 - CSS FlexBox Method
-- Felx Box Axis & Alignment 
+- Flex Box Axis & Alignment 

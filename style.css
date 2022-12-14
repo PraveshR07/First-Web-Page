@@ -11,13 +11,15 @@
 .headertop {
     display: flex;
     justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px
 
 }
 
 .ul {
     display: flex;
     list-style: none;
-
+    gap: 20px
 }
 
 .a {
@@ -35,4 +37,17 @@
 .titlesub { 
     font-size: 18px; 
     color: #E5E7EB;
+}
+
+.headerbody {
+    display: flex;
+    max-height: 24px;
+}
+
+.hbright {
+    max-height: 250px;
+}
+
+img {
+    max-height: 200px;
 }

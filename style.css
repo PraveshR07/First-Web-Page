@@ -8,7 +8,7 @@
         background-color: #1f2937;
 }
 
-.headertop {
+.navbar {
     display: flex;
     justify-content: space-between;
     margin-left: 100px;

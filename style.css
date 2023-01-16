@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;900&display=swap');
 
+* {
+    margin:0; 
+    padding: 0;
+
+}
 .first-section {
-background-color: #1f2937;
+background-color: #4c9679;
 }
 
 #header-logo {
@@ -18,6 +23,44 @@ body {
 .header-link {
     font-size: 18px;
     color: #e5e7eB;
-    
+    margin: 10px; 
+}
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-left,.navbar-right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 40px; 
+    font-weight: bolder; 
+    color: #f9faf8;
+}
+
+.content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.content-left {
+    display: flex;
+    justify-content:column;
+    width: 50%;
 }

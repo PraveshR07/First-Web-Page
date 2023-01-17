@@ -6,7 +6,7 @@
 
 }
 .first-section {
-background-color: #4c9679;
+background-color: #1f2937;
 }
 
 #header-logo {
@@ -51,6 +51,13 @@ h1 {
     color: #f9faf8;
 }
 
+.content {
+    display:flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+
 .content-right {
     display: flex;
     justify-content: center;
@@ -59,8 +66,15 @@ h1 {
     width: 50%;
 }
 
+
 .content-left {
     display: flex;
-    justify-content:column;
+    flex-direction: column; 
     width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    margin: 50px;
+    max-width: 300px;
 }

@@ -78,3 +78,16 @@ img {
     margin: 50px;
     max-width: 300px;
 }
+
+p-first {
+    margin-left: 40px;
+
+    
+}
+
+.sign-up-first { 
+    background-color:#3882f6;
+    color: white;
+    width: 100px;
+    
+}

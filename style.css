@@ -73,14 +73,17 @@ h1 {
     width: 50%;
     justify-content: center;
     align-items: center;
+    margin-left: 200px;
 }
 img {
     margin: 50px;
-    max-width: 300px;
+    max-width: 400px
 }
 
 p-first {
     margin-left: 40px;
+    color: #e5e7eB;
+    margin-left: 90px; 
 
     
 }
@@ -89,5 +92,7 @@ p-first {
     background-color:#3882f6;
     color: white;
     width: 100px;
-    
+    height: 25px;
+    border: 5px #000000; 
+    border-radius: 20px;
 }

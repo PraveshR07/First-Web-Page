@@ -23,7 +23,7 @@ body {
 .header-link {
     font-size: 18px;
     color: #e5e7eB;
-    margin: 10px; 
+    margin:5px; 
 }
 
 .navbar {
@@ -77,13 +77,13 @@ h1 {
 }
 img {
     margin: 50px;
-    max-width: 400px
+    max-width: 500px;
 }
 
 p-first {
-    margin-left: 40px;
     color: #e5e7eB;
-    margin-left: 90px; 
+    font-size: 18px;
+    margin-left: 90px;
 
     
 }

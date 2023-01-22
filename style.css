@@ -72,18 +72,16 @@ h1 {
     flex-direction: column; 
     width: 50%;
     justify-content: center;
-    align-items: center;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 img {
-    margin: 50px;
+    margin-bottom: 50px;
     max-width: 500px;
 }
 
 p-first {
     color: #e5e7eB;
     font-size: 18px;
-    margin-left: 90px;
 
     
 }

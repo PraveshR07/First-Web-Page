@@ -94,3 +94,26 @@ p-first {
     border: 5px #000000; 
     border-radius: 20px;
 }
+
+.row-of-divs {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.box {
+    border: 2px solid green ; 
+    border-radius: 25px; 
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+
+}
+
+.p-secound {
+    text-align: center;
+    font-size: 18;
+    color: #e5e7eB;
+}
+

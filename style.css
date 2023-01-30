@@ -95,19 +95,30 @@ p-first {
     border-radius: 20px;
 }
 
+h2 {
+    font-size: 36px; 
+    font-weight: bolder; 
+    color: #1f2937;
+    text-align: center;
+
+}
+
 .row-of-divs {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    max-width: 75%;
 
 }
 
 
 .box {
     border: 2px solid green ; 
-    border-radius: 25px; 
+    border: radius 5px; 
     width: 100px;
     height: 100px;
-    padding: 25px;
+    padding: 10px    
+
 
 }
 

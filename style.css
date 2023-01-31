@@ -6,7 +6,7 @@
 
 }
 .first-section {
-background-color: #1f2937;
+background-color: #1fa059;
 }
 
 #header-logo {
@@ -87,8 +87,8 @@ p-first {
 }
 
 .sign-up-first { 
-    background-color:#3882f6;
-    color: white;
+    background-color:#fafafa;
+    color: rgb(10, 10, 10);
     width: 100px;
     height: 25px;
     border: 5px #000000; 

@@ -136,9 +136,22 @@ h2 {
 h3 { 
     font-size: 36px;
     font-weight: lighter;
+    /* Font style is different from font-weight */
+    font-style: italic;
     color: #1f2937;
     text-align: center;
     margin: 20px;
     padding: 10px;
+}
+
+
+.third-section { 
+    background-color: #e5e7eb; 
+    margin: 200px;
+    display: flex;
+    flex-direction:column;
+    /* Now we can align the text */
+    justify-content: center;
+    align-items: center;
 }
 

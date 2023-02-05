@@ -106,7 +106,7 @@ h2 {
 .row-of-divs {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-between;
     max-width: 100%; 
     margin: 100px;
     align-items: center;
@@ -115,15 +115,16 @@ h2 {
 
 .box {
     border: 3px solid green ; 
-    border: radius 5px; 
-    width: 100px;
-    height: 100px;
-    padding: 10px;
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 10px;
 }
 
-.p-secound {
+.p_section {
     text-align: center;
-    font-size: 18;
+    font-size: 18px;
 
 }
 
@@ -133,6 +134,17 @@ h2 {
     flex-direction: column;
 }
 /* Third Section Styling */
+.third-section { 
+    background-color: #e5e7eb; 
+    margin: 200px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    /* Now we can align the text */
+}
+
+
 h3 { 
     font-size: 36px;
     font-weight: lighter;
@@ -140,18 +152,16 @@ h3 {
     font-style: italic;
     color: #1f2937;
     text-align: center;
-    margin: 20px;
-    padding: 10px;
 }
 
 
-.third-section { 
-    background-color: #e5e7eb; 
-    margin: 200px;
-    display: flex;
-    flex-direction:column;
-    /* Now we can align the text */
-    justify-content: center;
-    align-items: center;
+.p-three {
+    text-align: end;
+    font-size: 18px;
 }
 
+#p-div {
+        display: flex;
+        justify-content:flex-end;
+        margin-right: 300px;
+}
